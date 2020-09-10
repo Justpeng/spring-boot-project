@@ -8,7 +8,7 @@
     <springProperty name="ROOT_APPENDER_FILTER_LEVEL" source="${log.appender.root.filter.level}" scope="context"/>
     <springProperty name="PROFILE" source="profile" scope="context"/>
     <property name="LOG_PATTERN"
-              value="[%d{&quot;yyyy-MM-dd'T'HH:mm:ss,SSSXXX&quot;}][${PROFILE}][%level][%thread][%X{MFWT-TRACER-ID}] %logger{20} - %m%n"/>
+              value="[%d{&quot;yyyy-MM-dd'T'HH:mm:ss,SSSXXX&quot;}][${PROFILE}][%level][%thread][%X{TRACER-ID}] %logger{20} - %m%n"/>
     <property name="LOG_FILE" value="${LOG_DIR}/${APP_NAME}/${APP_NAME}.log"/>
     <property name="MAX_HISTORY" value="7"/>
 
@@ -43,26 +43,15 @@
         </encoder>
     </appender>
 
-    <logger name="com.alibaba.dubbo" level="ERROR"/>
+    <logger name="com.alibaba.dubbo" level="INFO"/>
     <logger name="org.apache.curator" level="ERROR"/>
-    <!--<logger name="org.springframework" level="ERROR"/>-->
     <logger name="org.springframework.test" level="ERROR"/>
     <logger name="org.apache.zookeeper" level="ERROR"/>
     <logger name="org.mortbay.log" level="ERROR"/>
     <logger name="org.apache" level="ERROR"/>
-    <logger name="com.mfw.flight.datacache" level="ERROR"/>
-    <logger name="com.mfw.flight.server.tracer.filter.ProviderTracerFilterTemplate" level="ERROR"/>
-    <logger name="com.mfw.traffic.dubbo.env.filter.TagEnvIsolationFilter" level="ERROR"/>
-    <logger name="com.mfw.traffic.dubbo.env.spring.listener.TagProviderApplicationListener" level="ERROR"/>
-    <logger name="com.mfw.traffic.mes.utils.ThreadPoolUtil" level="ERROR"/>
-    <logger name="com.mfw.flight.server.filter" level="ERROR"/>
     <logger name="org.springframework.boot.web.servlet.FilterRegistrationBean" level="ERROR"/>
     <logger name="org.elasticsearch.plugins.PluginsService" level="ERROR"/>
     <logger name="org.springframework.web.servlet.mvc" level="ERROR"/>
-    <logger name="com.mfw.flight.fmerchant.client.util" level="ERROR"/>
-    <logger name="com.mfw.flight.server.tracer.filter.dubbo.DubboConsumerTracerFilter" level="ERROR"/>
-    <logger name="com.mfw.traffic.dubbo.env.loadbalance.TagFilterLoadbalanceWrapper" level="ERROR"/>
-    <logger name="com.mfw.flight.fmerchant.client" level="ERROR"/>
     <logger name="org.springframework.context.support.PostProcessorRegistrationDelegate" level="ERROR"/>
 
 
