@@ -1,16 +1,18 @@
-### 包路径
+## 服务说明
 
-#### springboot-client
-
-对外暴露接口，包含dubbo
-
-
-#### springboot-server
-服务实现
+### 启动依赖
+- redis 
+- zookeeper
 
 
+### 服务结构
+- springboot-client 暴露的客户端
+- springboot-server 实现
+- wrap-spring-boot-starter 自定义的starter
 
-#### wrap-spring-boot-starter
 
-基于springboot自动注解实现的包装start-jar
+
+### 版本
+
+- 1.0.0 springboot+zk+redis+dubbo demo 以及实现了自定义springboot-starter;
 
