@@ -23,15 +23,6 @@ public class UserServiceTest {
     @Autowired
     private HealthUserService healthUserService;
 
-    @Autowired
-    private HealthLevelService healthLevelService;
-
-    @Autowired
-    private HealthRecordService healthRecordService;
-
-    @Autowired
-    private HealthTaskService healthTaskService;
-
     @Test
     public void testProcessUsers() throws Exception {
         int i =10;
@@ -43,48 +34,5 @@ public class UserServiceTest {
         }
     }
 
-    @Test
-    public void testProcessLevel() throws Exception {
-        long userId = 515489213915992065L;
-        int i =10;
-        while (i > 0) {
-            HealthLevel healthLevel = new HealthLevel();
-            healthLevel.setLevelName("level-name" + i);
-            healthLevelService.insert(healthLevel);
-            i--;
-        }
-    }
-
-    @Test
-    public void testProcessRecord() throws Exception {
-
-        long userId = 515489213915992065L;
-        long levelId = 515507479459794944L;
-        int i =10;
-        while (i > 0) {
-            HealthRecord healthRecord = new HealthRecord();
-            healthRecord.setLevelId(levelId);
-            healthRecord.setUserId(levelId);
-            healthRecord.setLevelId(userId);
-            healthRecord.setRemark("remark" + i);
-            healthRecordService.insert(healthRecord);
-            i--;
-        }
-    }
-
-    @Test
-    public void testProcessTask() throws Exception {
-        long userId = 515489213915992065L;
-        long recordId = 515508442853675008L;
-        int i =10;
-        while (i > 0) {
-            HealthTask healthRecord = new HealthTask();
-            healthRecord.setUserId(userId);
-            healthRecord.setRecordId(recordId);
-            healthRecord.setTaskName("task" + i);
-            healthTaskService.insert(healthRecord);
-            i--;
-        }
-    }
 
 }
