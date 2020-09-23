@@ -9,6 +9,10 @@
 - springboot-client 暴露的客户端
 - springboot-server 实现
 - wrap-spring-boot-starter 自定义的starter
+- sharding-sphere-traditional 单库单表场景
+- sharding-sphere-database 分库场景
+- sharding-sphere-tables 单库分表场景
+
 
 
 
