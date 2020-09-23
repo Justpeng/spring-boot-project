@@ -12,6 +12,8 @@
 - sharding-sphere-traditional 单库单表场景
 - sharding-sphere-database 分库场景
 - sharding-sphere-tables 单库分表场景
+- sharding-sphere-dbtables 分库分表场景
+
 
 
 
