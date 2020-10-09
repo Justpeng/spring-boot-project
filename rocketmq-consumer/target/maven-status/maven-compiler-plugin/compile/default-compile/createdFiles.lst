@@ -1,0 +1,15 @@
+com/just/rocketmq/consumer/ConsumerWithRepayGeneric.class
+com/just/rocketmq/consumer/StringConsumerWithReplyString.class
+com/just/rocketmq/template/ExtRocketMQTemplate.class
+com/just/rocketmq/consumer/StringTransactionalConsumer.class
+com/just/rocketmq/domain/ProductWithPayload.class
+com/just/rocketmq/consumer/MessageExtConsumer.class
+com/just/rocketmq/domain/UserMsg.class
+com/just/rocketmq/consumer/ConsumerWithReplyBytes.class
+com/just/rocketmq/consumer/StringConsumer.class
+com/just/rocketmq/consumer/UserConsumer.class
+com/just/rocketmq/domain/OrderPaidEvent.class
+com/just/rocketmq/consumer/ObjectConsumerWithReplyUser.class
+com/just/rocketmq/MQConsumerApplication.class
+com/just/rocketmq/consumer/OrderPaidEventConsumer.class
+com/just/rocketmq/consumer/StringConsumerNewNS.class

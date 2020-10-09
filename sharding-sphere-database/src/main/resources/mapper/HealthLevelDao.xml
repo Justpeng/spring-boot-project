@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.just.shardingsphere.health.dao.HealthLevelDao">
+<mapper namespace="com.just.rocketmq.health.dao.HealthLevelDao">
 
-    <resultMap id="BaseResultMap" type="com.just.shardingsphere.health.entity.HealthLevel">
+    <resultMap id="BaseResultMap" type="com.just.rocketmq.health.entity.HealthLevel">
         <!--@Table health_level-->
         <result property="id" column="id" jdbcType="BIGINT"/>
         <result property="levelName" column="level_name" jdbcType="VARCHAR"/>

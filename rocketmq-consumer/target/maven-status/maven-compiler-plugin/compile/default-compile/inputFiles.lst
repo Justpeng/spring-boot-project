@@ -1,0 +1,15 @@
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/consumer/StringConsumerWithReplyString.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/consumer/StringTransactionalConsumer.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/domain/OrderPaidEvent.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/consumer/StringConsumer.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/consumer/ConsumerWithRepayGeneric.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/consumer/OrderPaidEventConsumer.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/consumer/ConsumerWithReplyBytes.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/consumer/ObjectConsumerWithReplyUser.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/template/ExtRocketMQTemplate.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/consumer/UserConsumer.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/domain/ProductWithPayload.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/MQConsumerApplication.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/domain/UserMsg.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/consumer/MessageExtConsumer.java
+/Users/lipeng/workfiles/self_work/spring-boot-project/rocketmq-consumer/src/main/java/com/just/rocketmq/consumer/StringConsumerNewNS.java

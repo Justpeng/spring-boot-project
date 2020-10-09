@@ -8,6 +8,8 @@
         <module>springboot-server</module>
         <module>springboot-client</module>
         <module>wrap-spring-boot-starter</module>
+        <module>rocketmq-acl-consumer</module>
+        <module>rocketmq-acl-producer</module>
     </modules>
 
     <parent>
