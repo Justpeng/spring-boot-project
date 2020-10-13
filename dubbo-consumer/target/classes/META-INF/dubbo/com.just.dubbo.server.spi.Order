@@ -1,2 +1,0 @@
-alipay=com.just.dubbo.server.spi.AlipayPayOrder
-wechat=com.just.dubbo.server.spi.WechatPayOrder

@@ -2,3 +2,4 @@
 /springboot-client/target/
 /springboot-server/target/
 /.idea/
+/dubbo-consumer/target/
