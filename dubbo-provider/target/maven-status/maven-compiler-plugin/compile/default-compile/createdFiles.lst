@@ -1,0 +1,4 @@
+com/just/springboot/server/DubboProviderApp.class
+com/just/springboot/server/impl/DubboDemoImpl.class
+com/just/springboot/server/config/DubboConfig.class
+com/just/springboot/server/service/DubboProviderDemo.class
