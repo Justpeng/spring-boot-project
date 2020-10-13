@@ -22,5 +22,7 @@
 
 - 1.0.0-SNAPSHOT sharding jdbc learn
 - 1.0.0 springboot+zk+redis+dubbo demo 以及实现了自定义springboot-starter;
+- 1.0.1 rocketmq-demo 以及实现了自定义springboot-starter;
+- 1.0.2 dubbbo-demo
 
 
