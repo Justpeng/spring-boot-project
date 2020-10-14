@@ -1,0 +1,4 @@
+alipay=com.just.dubbo.server.spi3.AlipayOrder
+wechat=com.just.dubbo.server.spi3.WechatOrder
+card=com.just.dubbo.server.spi3.CardOrder
+cache=com.just.dubbo.server.spi3.CacheOrder

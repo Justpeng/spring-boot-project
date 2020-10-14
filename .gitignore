@@ -2,3 +2,12 @@
 /springboot-client/target/
 /springboot-server/target/
 /.idea/
+/dubbo-consumer/target/
+/dubbo-provider-client/target/
+/rocketmq-acl-consumer/target/
+/rocketmq-acl-producer/target/
+/sharding-sphere-database/target/
+/sharding-sphere-dbtables/target/
+/sharding-sphere-tables/target/
+/sharding-sphere-traditional/target/
+
