@@ -45,4 +45,14 @@ public class DubboSPITest {
         System.out.println(JSONObject.toJSON(strings));
 
     }
+
+    /**
+     * adaptive 和 wrapper都不属于扩展类，不能单独使用
+     */
+    @Test
+    public void test05() {
+        ExtensionLoader<Order> loader = ExtensionLoader.getExtensionLoader(Order.class);
+        Set<String> strings = loader.getSupportedExtensions();
+        System.out.println(strings);
+    }
 }

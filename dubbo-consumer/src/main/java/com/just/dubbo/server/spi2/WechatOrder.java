@@ -3,7 +3,7 @@ package com.just.dubbo.server.spi2;
 
 import org.apache.dubbo.common.URL;
 
-public class WechatOrderPay implements OrderPay {
+public class WechatOrder implements Order {
     @Override
     public String pay(URL url) {
         return "this is wechat order 2 pay";

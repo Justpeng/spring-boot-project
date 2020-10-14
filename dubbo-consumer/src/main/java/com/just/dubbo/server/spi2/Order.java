@@ -5,7 +5,7 @@ import org.apache.dubbo.common.extension.Adaptive;
 import org.apache.dubbo.common.extension.SPI;
 
 @SPI("wechat")
-public interface OrderPay {
+public interface Order {
     @Adaptive
     String pay(URL url);
 

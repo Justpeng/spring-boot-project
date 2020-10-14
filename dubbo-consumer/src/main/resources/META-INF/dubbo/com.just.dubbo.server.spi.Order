@@ -1,3 +1,4 @@
 alipay=com.just.dubbo.server.spi.AlipayOrder
 wechat=com.just.dubbo.server.spi.WechatOrder
 adaptive=com.just.dubbo.server.spi.AdaptiveOrder
+wraper=com.just.dubbo.server.spi.OrderWrapper

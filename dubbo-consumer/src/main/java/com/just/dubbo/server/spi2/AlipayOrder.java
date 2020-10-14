@@ -3,7 +3,7 @@ package com.just.dubbo.server.spi2;
 
 import org.apache.dubbo.common.URL;
 
-public class AlipayOrderPay implements OrderPay {
+public class AlipayOrder implements Order {
     @Override
     public String pay(URL url) {
         return "this is alipay order 2 pay";
